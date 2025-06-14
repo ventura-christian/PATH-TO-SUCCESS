@@ -1,7 +1,8 @@
-# 🪫 PATH-TO-SUCCESS
-<em>GIT 337 - Mobile Friendly Website</em>
+# GIT 337 🪫 PATH-TO-SUCCESS ASSIGNMENT
+<em>Mobile Friendly Website</em>
 
 ## 🧠 🧑‍💻 Objective
+- To design, build, and publish a website from scratch using concepts learned in this course
 - To demonstrate my ability to produce and validate semantic HTML code through the W3C Markup Service
 - To demonstrate my ability to produce valide CSS styling for my webpages with mobile layout in mind
 - To create, initialize, and commit my files to a repository through github.com and the github desktop application
