@@ -1,36 +1,78 @@
+/* CSS BY NAME */
+/* Christian Ventura: Path to Success Assignment */
+
+/* IMPORTED FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kavoon&display=swap');
+
+/* CSS REST */
 * {
-  font-family: 'Courier New', Courier, monospace;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-table,
-th {
-  border: 1px solid black;
+/* ROOT VARIABLES */
+:root {
+  --color-teal: #4ca7c0;
+  --color-purple: #484fb7;
+  --color-lavender: #6b8fe7;
+  --color-yellow: #e9bb57;
+  --color-pink: #d9526f;
+  --color-dark: #1e1e1e;
+  --color-white: #ffffff;
+  --font-heading: 'Kavoon', cursive;
+  --font-body: 'Inter', sans-serif;
 }
 
-.header {
-  color: black;
+/* GLOBAL STYLES */
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-white);
+  color: var(--color-dark);
+  line-height: 1.6;
+  padding: 1rem;
+  max-width: 450px;
+  margin: 0 auto;
 }
 
-.menu {
-  color: black;
+h1 {
+  font-family: var(--font-heading);
+  font-size: 2em;
+  color: var(--color-teal);
+  margin-bottom: 0.5rem;
 }
 
-.services {
-  color: black;
+h2 {
+  font-family: var(--font-heading);
+  font-size: 2em;
+  color: var(--color-purple);
+  margin-bottom: 0.5rem;
 }
 
-.choice {
-  color: black;
+nav h2 {
+  font-size: 1.5rem;
+  color: var(--color-lavender);
 }
 
-.pricing {
-  color: black;
+h3 {
+  font-size: 1.5rem;
+  color: var(--color-pink);
 }
 
-.firstStep {
-  color: black;
+h4 {
+  font-size: 1.15rem;
+  color: var(--color-yellow);
 }
 
-.footer {
-  color: black;
+section {
+  margin-bottom: 2rem;
+}
+
+a {
+  color: var(--accent-teal);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
