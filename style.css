@@ -2,6 +2,11 @@
   font-family: 'Courier New', Courier, monospace;
 }
 
+table,
+th {
+  border: 1px solid black;
+}
+
 .header {
   color: black;
 }
