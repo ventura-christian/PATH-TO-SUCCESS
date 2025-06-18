@@ -65,6 +65,23 @@ h2 {
   margin-bottom: 0.5rem;
 }
 
+nav {
+  background-color: var(--color-yellow);
+  padding: 1rem;
+  margin: 1rem 0;
+  text-align: center;
+}
+
+nav a {
+  display: block;
+  background-color: var(--color-white);
+  color: var(--color-purple);
+  margin: 0.5rem 0;
+  padding: 0.75rem;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
 nav h2 {
   font-size: 1.5rem;
   color: var(--color-lavender);
