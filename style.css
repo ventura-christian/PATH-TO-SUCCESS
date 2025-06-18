@@ -27,12 +27,28 @@
 /* GLOBAL STYLES */
 body {
   font-family: var(--font-body);
-  background-color: var(--color-white);
+  background-color: var(--color-lavender);
   color: var(--color-dark);
   line-height: 1.6;
   padding: 1rem;
   max-width: 450px;
   margin: 0 auto;
+}
+
+header {
+  background-color: var(--color-purple);
+  color: var(--color-white);
+  text-align: center;
+  padding: 1rem;
+}
+
+header h1 {
+  font-size: 3em;
+}
+
+header p {
+  font-size: 1em;
+  color: var(--color-white);
 }
 
 h1 {
