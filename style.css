@@ -111,7 +111,9 @@ a {
 
 a:hover {
   text-decoration: underline;
+  cursor: pointer;
 }
+
 
 #servicesSection {
   background-color: var(--color-purple);
@@ -209,6 +211,7 @@ a:hover {
   border-radius: 4px;
   font-weight: bold;
   margin-top: 1rem;
+  cursor: pointer;
 }
 
 #footer {
