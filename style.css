@@ -51,7 +51,6 @@ header p {
 h1 {
   font-family: var(--font-heading);
   font-size: 2em;
-  /* color: var(--color-white); */
   margin-bottom: 0.5rem;
   font-size: 3em;
 }
@@ -84,6 +83,7 @@ nav a {
 nav h2 {
   font-size: 1.5rem;
   color: var(--color-black);
+  font-family: 'Inter';
 }
 
 ul {
@@ -154,16 +154,35 @@ a:hover {
   flex-wrap: wrap;
   gap: 0.5rem;
   justify-content: center;
+  color: var(--color-dark);
+
 }
 
-.benefit {
-  background-color: var(--color-white);
-  color: var(--color-dark);
-  border-radius: 4px;
-  padding: 0.5rem 1rem;
-  flex: 1 1 40%;
-  font-size: 0.85em;
+.choice1 {
+  background-color: var(--color-teal);
   text-align: center;
+}
+
+.choice2 {
+  background-color: var(--color-lavender);
+}
+
+.choice3 {
+  background-color: var(--color-yellow);
+}
+
+.choice4 {
+  background-color: var(--color-white);
+}
+
+.choice1, .choice2, .choice3, .choice4 {
+  color: var(--color-dark);
+  border-radius: 20px;
+  padding: 1rem;
+  flex: 1 1 40%;
+  font-size: 1em;
+  text-align: center;
+  justify-content: center;
 }
 
 #pricing {
