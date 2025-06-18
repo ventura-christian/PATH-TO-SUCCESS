@@ -109,3 +109,67 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
+.services {
+  background-color: var(--color-white);
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.services h3 {
+  font-size: 1.5em;
+  margin-bottom: 0.5rem;
+}
+
+.services p {
+  font-size: 1em;
+}
+
+#choice {
+  background-color: var(--color-pink);
+  padding: 1rem;
+  color: var(--color-white);
+}
+
+.benefit {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center;
+}
+
+.benefit {
+  background-color: var(--color-white);
+  color: var(--color-dark);
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  flex: 1 1 40%;
+  font-size: 0.85em;
+  text-align: center;
+}
+
+#pricing {
+  background-color: var(--color-purple);
+  padding: 1rem;
+}
+
+#pricing table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1rem;
+  background-color: var(--color-white);
+}
+
+#pricing table th {
+  background-color: var(--color-yellow);
+  color: var(--color-black);
+  text-align: left;
+  padding: 0.5rem;
+}
+
+#pricing table td {
+  border: 1px solid var(--color-yellow);
+  padding: 0.5rem;
+}
