@@ -80,9 +80,9 @@ nav a {
   font-weight: bold;
 }
 
-nav h2 {
+nav p {
   font-size: 1.5rem;
-  color: var(--color-black);
+  color: var(--color-dark);
   font-family: 'Inter';
 }
 
@@ -126,7 +126,7 @@ a:hover {
   border-radius: 8px;
   padding: 1rem;
   margin-bottom: 1rem;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 5px var(--color-dark)
 }
 
 #services h3 {
@@ -239,7 +239,7 @@ a:hover {
   background-color: var(--color-yellow);
 }
 
-#footer {
+footer {
   background-color: var(--color-purple);
   color: var(--color-white);
   text-align: center;
@@ -251,6 +251,3 @@ a:hover {
   justify-content: center;
 }
 
-#footer h5 {
-  color: var(--color-white);
-}
